@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Joan', serif;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-image: url(/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    width: 100%;
+}
+.logo{
+    padding-top: 4rem;
+    padding-left: 4em;
+    color: white;
+}
+.logo span{
+    color: #bb1b28b7;
+}
+.logo h1{
+    font-size: 3rem;
+}
+.icon .fa-solid{
+    position: absolute;
+    top: 0;
+    color: white;
+    padding: 3rem;
+    right: 0;
+    font-size: 5rem;
+}
+.container{
+    transform: translate(1%, 1%);
+    color: white;
+    position: absolute;
+    left: 3%;
+    top: 30%;
+    letter-spacing: 0.1rem;
+    line-height: 1;
+}
+.container h1{
+    font-size: 7rem;
+    font-weight: bolder;
+}
+.container .p-1{
+    font-weight: lighter;
+    font-size: 5rem;
+}
+.container p{
+    margin-top: 2.5rem;
+    font-size: 2.5rem;
+}
+button{
+    margin-top: 3rem;
+    border: 0.1rem solid #bb1b28b7;
+    border-radius: 3rem;
+    padding: 1rem 4rem;
+    background-color: #bb1b28b7;
+}
+button a{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 0.1rem;
+    line-height: 1.2;
+    font-size: 1.5rem;
+}
+.container-1{
+    transform: translate(15%, 100%);
+    position: absolute;
+    top: 61%;
+    /* left: 15%; */
+    height: 9rem;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 12rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.2;
+}
+.color{
+   background-color: rgba(0, 0, 0, 0.281);
+   padding: 2.5rem;
+   text-align: center;
+}
+.color h1{
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+.color p{
+    font-size: 1.5rem;
+}
+.color-1{
+    margin-top: 7rem;
+}
+.container-1 .box-2{
+    background-color: #bb1b28b7;
+}
+.box-2 .fa-solid{
+    margin-top: 0.1rem;
+    color: white;
+    font-size: 4rem;
+}
+.box-2 h1{
+    margin-top: 2rem;
+}
+@media(max-width: 900px){
+    .logo{
+        padding-left: 1rem;
+    }
+    .container-1{
+        display: block;
+         position: absolute;
+         transform: translate(50%, 180%);
+        top: 70%;
+    }
+    .color-1{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+}
